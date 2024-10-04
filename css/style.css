@@ -1,0 +1,117 @@
+* {
+    font-family:"Poppins",  sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:rgb(185,185,185) ;
+
+}
+/*header*/
+
+h1,img{
+    display: inline-block;
+    vertical-align:middle
+}
+
+.position-logotext{
+    padding: 20px;
+}
+
+.logotext{
+    display:inline-block
+}
+
+.logo{
+    background-color: white;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+/*main*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+.upcoming li, .today,li .task,li{
+list-style: none;
+}
+
+.background{
+    border-radius: 20%;
+    color: white;
+    padding: 5px;
+
+}
+
+.pink{
+    background-color: pink;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.violet{
+    background-color: violet;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.coiche{
+    padding-left: 5%;
+    padding: 50px;
+}
+
+.button, .button2{
+    border-radius: 20%;
+    color: lightgrey;
+    background-color: blue;
+    border: 1px solid lightgrey;
+    padding: 7px;
+
+}
+
+.button2{
+    background-color: white;
+    color: lightgrey;
+}
+
+ul li{
+    display: block;
+    margin: 20px;
+}
+
+ul{
+    display: block;
+}
+
+.not-verified, .verified{
+    display: inline-block;
+    border-radius: 50px;
+    border:  2px solid red;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.verified{
+    border: 2px solid green;
+}
+
+.upcoming{
+    padding-bottom: 50px ;
+}
